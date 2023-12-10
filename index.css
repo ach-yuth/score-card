@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container {
@@ -154,5 +154,8 @@ button {
   .box1 {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+  }
+  body {
+    height: fit-content;
   }
 }
